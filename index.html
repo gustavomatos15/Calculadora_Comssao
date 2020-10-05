@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript" src="ajaxScript.js"></script>
+    <title>Soma com valores Definidos</title>
+</head>
+<body>
+    <form action="POST">
+        <h1>Efetuando uma soma com PHP</h1>
+
+        <div id='valores'>
+            <h3>Valores:</h3>
+            <input type="number" id='v1' required>
+            <span>+</span>
+            <input type="number" id='v2' required>
+
+            <input type="submit" id='bnt-submit' value="SUBMIT">
+        </div>
+
+        <!--Aqui a resposta é inserida ao clicar em "submit"-->
+        <div id='resposta'></div>
+    </form>
+</body>
+</html>
